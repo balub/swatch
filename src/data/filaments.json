@@ -1,0 +1,120 @@
+{
+  "tags": [
+    { "id": "tag1", "name": "Brittle" },
+    { "id": "tag2", "name": "Strong" },
+    { "id": "tag3", "name": "Flexible" },
+    { "id": "tag4", "name": "Great for Cosplay" },
+    { "id": "tag5", "name": "Difficult to Print" },
+    { "id": "tag6", "name": "Easy to Print" },
+    { "id": "tag7", "name": "Good for Functional Parts" },
+    { "id": "tag8", "name": "Good for Decorative Parts" },
+    { "id": "tag9", "name": "Requires Enclosure" },
+    { "id": "tag10", "name": "Odorless" }
+  ],
+  "filaments": [
+    {
+      "id": "fil1",
+      "name": "Space Gray",
+      "brand": "Prusament",
+      "material": "PLA",
+      "finish": "Matte",
+      "hexColor": "#2F3640",
+      "tags": [
+        { "id": "tag6", "name": "Easy to Print" },
+        { "id": "tag7", "name": "Good for Functional Parts" }
+      ],
+      "printingBehavior": "Prints reliably at standard PLA settings. Minimal stringing and excellent layer adhesion."
+    },
+    {
+      "id": "fil2",
+      "name": "Galaxy Black",
+      "brand": "Hatchbox",
+      "material": "PLA",
+      "finish": "Matte",
+      "hexColor": "#0F0F0F",
+      "tags": [
+        { "id": "tag6", "name": "Easy to Print" },
+        { "id": "tag7", "name": "Good for Functional Parts" }
+      ],
+      "printingBehavior": "Very forgiving with temperature variations. Minimal warping even with larger prints."
+    },
+    {
+      "id": "fil3",
+      "name": "Arctic White",
+      "brand": "eSun",
+      "material": "PLA+",
+      "finish": "Matte",
+      "hexColor": "#FFFFFF",
+      "tags": [
+        { "id": "tag6", "name": "Easy to Print" },
+        { "id": "tag7", "name": "Good for Functional Parts" }
+      ],
+      "printingBehavior": "Prints well but requires slightly higher temperatures than standard PLA."
+    },
+    {
+      "id": "fil4",
+      "name": "Cherry Red",
+      "brand": "Overture",
+      "material": "PETG",
+      "finish": "Glossy",
+      "hexColor": "#C0392B",
+      "tags": [
+        { "id": "tag2", "name": "Strong" },
+        { "id": "tag7", "name": "Good for Functional Parts" }
+      ],
+      "printingBehavior": "Some stringing present. Works best with slower speeds and higher retraction."
+    },
+    {
+      "id": "fil5",
+      "name": "Silky Gold",
+      "brand": "CC3D",
+      "material": "PLA",
+      "finish": "Silk",
+      "hexColor": "#D4AF37",
+      "tags": [
+        { "id": "tag8", "name": "Good for Decorative Parts" },
+        { "id": "tag6", "name": "Easy to Print" }
+      ],
+      "printingBehavior": "Requires slightly higher temperatures. Tends to be more brittle than standard PLA."
+    },
+    {
+      "id": "fil6",
+      "name": "Neon Blue",
+      "brand": "Polymaker",
+      "material": "PLA",
+      "finish": "Matte",
+      "hexColor": "#3498DB",
+      "tags": [
+        { "id": "tag6", "name": "Easy to Print" },
+        { "id": "tag7", "name": "Good for Functional Parts" }
+      ],
+      "printingBehavior": "Very consistent flow and minimal stringing. Good layer adhesion."
+    },
+    {
+      "id": "fil7",
+      "name": "Matte Black",
+      "brand": "Prusa",
+      "material": "PETG",
+      "finish": "Matte",
+      "hexColor": "#1A1A1A",
+      "tags": [
+        { "id": "tag2", "name": "Strong" },
+        { "id": "tag7", "name": "Good for Functional Parts" }
+      ],
+      "printingBehavior": "Requires a well-calibrated first layer. Less stringing than other PETG filaments."
+    },
+    {
+      "id": "fil8",
+      "name": "Emerald Green",
+      "brand": "Atomic",
+      "material": "PLA",
+      "finish": "Matte",
+      "hexColor": "#27AE60",
+      "tags": [
+        { "id": "tag6", "name": "Easy to Print" },
+        { "id": "tag7", "name": "Good for Functional Parts" }
+      ],
+      "printingBehavior": "Consistent diameter and excellent flow properties. Barely any stringing."
+    }
+  ]
+}
