@@ -63,11 +63,11 @@ Then open http://localhost:5173 in your browser.
 ## Contributing
 
 Community contributions are welcome. Here are some ways to help:
-	- Improve the visual design and layout
-	- Propose better UX patterns for browsing or filtering swatches
-	- Contribute swatch images and details (especially Indian brands)
-	- Help define a metadata standard for filament entries
-	- Design a simple brand/logo for the site
+- Improve the visual design and layout
+- Propose better UX patterns for browsing or filtering swatches
+- Contribute swatch images and details (especially Indian brands)
+- Help define a metadata standard for filament entries
+- Design a simple brand/logo for the site
 
 Open a pull request or issue if you’d like to collaborate.
 
