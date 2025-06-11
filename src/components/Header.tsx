@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Palette, Moon, Sun } from "lucide-react";
+import { Palette, Moon, Sun, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/components/ThemeProvider";
 
@@ -14,13 +14,26 @@ const Header = () => {
           <span className="text-xl font-bold">Swatch</span>
         </Link>
 
-        <Button variant="ghost" size="icon" onClick={toggleTheme}>
-          {theme === "light" ? (
-            <Moon className="h-5 w-5" />
-          ) : (
-            <Sun className="h-5 w-5" />
-          )}
-        </Button>
+        <div className="flex items-center gap-2">
+          <Button variant="ghost" size="icon" asChild>
+            <a
+              href="https://github.com/balub/swatch"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View source on GitHub"
+            >
+              <Github className="h-5 w-5" />
+            </a>
+          </Button>
+
+          <Button variant="ghost" size="icon" onClick={toggleTheme}>
+            {theme === "light" ? (
+              <Moon className="h-5 w-5" />
+            ) : (
+              <Sun className="h-5 w-5" />
+            )}
+          </Button>
+        </div>
       </div>
     </header>
   );
