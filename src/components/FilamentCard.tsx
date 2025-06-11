@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Filament } from "../types";
+import type { Filament } from "@/types";
+import { getFilamentImage } from "@/utils/imageUtils";
 import Tag from "./Tag";
 
 interface FilamentCardProps {
-filament: Filament;
+  filament: Filament;
 }
 
 const FilamentCard = ({ filament }: FilamentCardProps) => {
@@ -15,9 +16,14 @@ const FilamentCard = ({ filament }: FilamentCardProps) => {
       <Card className="h-full transition-colors hover:bg-muted/50">
         <div className="aspect-video w-full bg-gray-100 rounded-t-lg overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=300&fit=crop"
+            src={getFilamentImage(filament.image, filament.hexColor)}
             alt={`${filament.name} swatch`}
             className="w-full h-full object-cover"
+            onError={(e) => {
+              // Fallback to color swatch if image fails to load
+              const target = e.target as HTMLImageElement;
+              target.src = getFilamentImage(undefined, filament.hexColor);
+            }}
           />
         </div>
         <CardHeader className="pb-3">

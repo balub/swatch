@@ -13,116 +13,114 @@
   ],
   "filaments": [
     {
-      "id": "fil1",
-      "name": "Space Gray",
-      "brand": "Prusament",
-      "material": "PLA",
-      "finish": "Matte",
-      "hexColor": "#2F3640",
-      "image": "/images/filaments/space-gray.jpg",
-      "tags": [
-        { "id": "tag6", "name": "Easy to Print" },
-        { "id": "tag7", "name": "Good for Functional Parts" }
-      ],
-      "printingBehavior": "Prints reliably at standard PLA settings. Minimal stringing and excellent layer adhesion."
-    },
-    {
-      "id": "fil2",
-      "name": "Galaxy Black",
-      "brand": "Hatchbox",
-      "material": "PLA",
-      "finish": "Matte",
-      "hexColor": "#0F0F0F",
-      "image": "/images/filaments/galaxy-black.jpg",
-      "tags": [
-        { "id": "tag6", "name": "Easy to Print" },
-        { "id": "tag7", "name": "Good for Functional Parts" }
-      ],
-      "printingBehavior": "Very forgiving with temperature variations. Minimal warping even with larger prints."
-    },
-    {
-      "id": "fil3",
-      "name": "Arctic White",
-      "brand": "eSun",
+      "id": "1",
+      "name": "Esun Jacinth ESlik PLA+",
+      "brand": "Esun",
       "material": "PLA+",
-      "finish": "Matte",
-      "hexColor": "#FFFFFF",
-      "image": "/images/filaments/arctic-white.jpg",
-      "tags": [
-        { "id": "tag6", "name": "Easy to Print" },
-        { "id": "tag7", "name": "Good for Functional Parts" }
-      ],
-      "printingBehavior": "Prints well but requires slightly higher temperatures than standard PLA."
+      "finish": "Silk",
+      "hexColor": "#000000",
+      "image": "/images/swatches/esun_jacinth_eslik_pla+.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
     },
     {
-      "id": "fil4",
-      "name": "Cherry Red",
-      "brand": "Overture",
+      "id": "2",
+      "name": "Fibreel Green PETG",
+      "brand": "Fibreel",
       "material": "PETG",
-      "finish": "Glossy",
-      "hexColor": "#C0392B",
-      "image": "/images/filaments/cherry-red.jpg",
-      "tags": [
-        { "id": "tag2", "name": "Strong" },
-        { "id": "tag7", "name": "Good for Functional Parts" }
-      ],
-      "printingBehavior": "Some stringing present. Works best with slower speeds and higher retraction."
+      "finish": "",
+      "hexColor": "#000000",
+      "image": "/images/swatches/fibreel_green_petg.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
     },
     {
-      "id": "fil5",
-      "name": "Silky Gold",
-      "brand": "CC3D",
+      "id": "3",
+      "name": "Fibreel Orange Glass PLA",
+      "brand": "Fibreel",
+      "material": "PLA",
+      "finish": "Glass",
+      "hexColor": "#000000",
+      "image": "/images/swatches/fibreel_orange_glass_pla.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
+    },
+    {
+      "id": "4",
+      "name": "Fibreel Silk Red PLA Silk",
+      "brand": "Fibreel",
       "material": "PLA",
       "finish": "Silk",
-      "hexColor": "#D4AF37",
-      "image": "/images/filaments/silky-gold.jpg",
-      "tags": [
-        { "id": "tag8", "name": "Good for Decorative Parts" },
-        { "id": "tag6", "name": "Easy to Print" }
-      ],
-      "printingBehavior": "Requires slightly higher temperatures. Tends to be more brittle than standard PLA."
+      "hexColor": "#000000",
+      "image": "/images/swatches/fibreel_silk_red_pla_silk.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
     },
     {
-      "id": "fil6",
-      "name": "Neon Blue",
-      "brand": "Polymaker",
-      "material": "PLA",
-      "finish": "Matte",
-      "hexColor": "#3498DB",
-      "image": "/images/filaments/neon-blue.jpg",
-      "tags": [
-        { "id": "tag6", "name": "Easy to Print" },
-        { "id": "tag7", "name": "Good for Functional Parts" }
-      ],
-      "printingBehavior": "Very consistent flow and minimal stringing. Good layer adhesion."
+      "id": "5",
+      "name": "Numakers Black PLA+",
+      "brand": "Numakers",
+      "material": "PLA+",
+      "finish": "",
+      "hexColor": "#000000",
+      "image": "/images/swatches/numakers_black_pla+.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
     },
     {
-      "id": "fil7",
-      "name": "Matte Black",
-      "brand": "Prusa",
+      "id": "6",
+      "name": "Numakers Grey PETG",
+      "brand": "Numakers",
       "material": "PETG",
-      "finish": "Matte",
-      "hexColor": "#1A1A1A",
-      "image": "/images/filaments/matte-black.jpg",
-      "tags": [
-        { "id": "tag2", "name": "Strong" },
-        { "id": "tag7", "name": "Good for Functional Parts" }
-      ],
-      "printingBehavior": "Requires a well-calibrated first layer. Less stringing than other PETG filaments."
+      "finish": "",
+      "hexColor": "#000000",
+      "image": "/images/swatches/numakers_grey_petg.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
     },
     {
-      "id": "fil8",
-      "name": "Emerald Green",
-      "brand": "Atomic",
+      "id": "7",
+      "name": "Numakers Ivory PLA+",
+      "brand": "Numakers",
+      "material": "PLA+",
+      "finish": "",
+      "hexColor": "#000000",
+      "image": "/images/swatches/numakers_ivory_pla+.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
+    },
+    {
+      "id": "8",
+      "name": "Numakers Teal PLA+",
+      "brand": "Numakers",
+      "material": "PLA+",
+      "finish": "",
+      "hexColor": "#000000",
+      "image": "/images/swatches/numakers_teal_pla+.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
+    },
+    {
+      "id": "9",
+      "name": "Wol3d Black PLA",
+      "brand": "Wol3d",
       "material": "PLA",
-      "finish": "Matte",
-      "hexColor": "#27AE60",
-      "image": "/images/filaments/emerald-green.jpg",
-      "tags": [
-        { "id": "tag6", "name": "Easy to Print" },
-        { "id": "tag7", "name": "Good for Functional Parts" }
-      ],
-      "printingBehavior": "Consistent diameter and excellent flow properties. Barely any stringing."
+      "finish": "",
+      "hexColor": "#000000",
+      "image": "/images/swatches/wol3d_black_pla.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
+    },
+    {
+      "id": "10",
+      "name": "Wol3d Orange PLA",
+      "brand": "Wol3d",
+      "material": "PLA",
+      "finish": "",
+      "hexColor": "#000000",
+      "image": "/images/swatches/wol3d_orange_pla.jpg",
+      "tags": [],
+      "printingBehavior": "Printing Behavior"
     }
   ]
 }
