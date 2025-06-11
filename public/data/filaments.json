@@ -19,6 +19,7 @@
       "material": "PLA",
       "finish": "Matte",
       "hexColor": "#2F3640",
+      "image": "/images/filaments/space-gray.jpg",
       "tags": [
         { "id": "tag6", "name": "Easy to Print" },
         { "id": "tag7", "name": "Good for Functional Parts" }
@@ -32,6 +33,7 @@
       "material": "PLA",
       "finish": "Matte",
       "hexColor": "#0F0F0F",
+      "image": "/images/filaments/galaxy-black.jpg",
       "tags": [
         { "id": "tag6", "name": "Easy to Print" },
         { "id": "tag7", "name": "Good for Functional Parts" }
@@ -45,6 +47,7 @@
       "material": "PLA+",
       "finish": "Matte",
       "hexColor": "#FFFFFF",
+      "image": "/images/filaments/arctic-white.jpg",
       "tags": [
         { "id": "tag6", "name": "Easy to Print" },
         { "id": "tag7", "name": "Good for Functional Parts" }
@@ -58,6 +61,7 @@
       "material": "PETG",
       "finish": "Glossy",
       "hexColor": "#C0392B",
+      "image": "/images/filaments/cherry-red.jpg",
       "tags": [
         { "id": "tag2", "name": "Strong" },
         { "id": "tag7", "name": "Good for Functional Parts" }
@@ -71,6 +75,7 @@
       "material": "PLA",
       "finish": "Silk",
       "hexColor": "#D4AF37",
+      "image": "/images/filaments/silky-gold.jpg",
       "tags": [
         { "id": "tag8", "name": "Good for Decorative Parts" },
         { "id": "tag6", "name": "Easy to Print" }
@@ -84,6 +89,7 @@
       "material": "PLA",
       "finish": "Matte",
       "hexColor": "#3498DB",
+      "image": "/images/filaments/neon-blue.jpg",
       "tags": [
         { "id": "tag6", "name": "Easy to Print" },
         { "id": "tag7", "name": "Good for Functional Parts" }
@@ -97,6 +103,7 @@
       "material": "PETG",
       "finish": "Matte",
       "hexColor": "#1A1A1A",
+      "image": "/images/filaments/matte-black.jpg",
       "tags": [
         { "id": "tag2", "name": "Strong" },
         { "id": "tag7", "name": "Good for Functional Parts" }
@@ -110,6 +117,7 @@
       "material": "PLA",
       "finish": "Matte",
       "hexColor": "#27AE60",
+      "image": "/images/filaments/emerald-green.jpg",
       "tags": [
         { "id": "tag6", "name": "Easy to Print" },
         { "id": "tag7", "name": "Good for Functional Parts" }

@@ -1,7 +1,6 @@
+export type Material = "PLA" | "PLA+" | "PETG" | "ABS" | "TPU" | "ASA";
 
-export type Material = 'PLA' | 'PLA+' | 'PETG' | 'ABS' | 'TPU' | 'ASA';
-
-export type Finish = 'Matte' | 'Silk' | 'Glossy' | 'Metallic';
+export type Finish = "Matte" | "Silk" | "Glossy" | "Metallic";
 
 export interface Tag {
   id: string;
@@ -15,6 +14,7 @@ export interface Filament {
   material: Material;
   finish: Finish;
   hexColor: string;
+  image?: string;
   tags: Tag[];
   printingBehavior?: string;
 }

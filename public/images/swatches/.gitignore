@@ -1,0 +1,17 @@
+# Keep all image files
+!*.jpg
+!*.jpeg
+!*.png
+!*.webp
+!*.gif
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore very large files (over 5MB)
+# Add specific large files here if needed 
