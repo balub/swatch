@@ -35,7 +35,7 @@
       "image": "/images/swatches/fibreel_green_petg.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior",
-      "websiteUrl": "https://www.fibreel.com/petg-filament",
+      "websiteUrl": "https://www.fibreel.com/products/fab-petg",
       "affiliateUrl": ""
     },
     {
@@ -48,7 +48,7 @@
       "image": "/images/swatches/fibreel_orange_glass_pla.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior",
-      "websiteUrl": "https://www.fibreel.com/glass-pla-filament",
+      "websiteUrl": "https://www.fibreel.com/products/fab-pla-glass",
       "affiliateUrl": ""
     },
     {
@@ -61,7 +61,7 @@
       "image": "/images/swatches/fibreel_silk_red_pla_silk.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior",
-      "websiteUrl": "https://www.fibreel.com/silk-pla-filament",
+      "websiteUrl": "https://www.fibreel.com/products/fab-pla-silk",
       "affiliateUrl": "https://amzn.to/3FHJOBv"
     },
     {
@@ -74,12 +74,12 @@
       "image": "/images/swatches/numakers_black_pla+.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior",
-      "websiteUrl": "https://www.numakers.com/pla-plus-filament",
+      "websiteUrl": "https://india.numakers.com/products/pla-filament?variant=43307591860393",
       "affiliateUrl": ""
     },
     {
       "id": "6",
-      "name": "Numakers Grey PETG",
+      "name": "Numakers Light Grey PETG",
       "brand": "Numakers",
       "material": "PETG",
       "finish": "",
@@ -87,7 +87,7 @@
       "image": "/images/swatches/numakers_grey_petg.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior",
-      "websiteUrl": "https://www.numakers.com/petg-filament",
+      "websiteUrl": "https://india.numakers.com/products/petg-hs-filament?variant=43307604181161",
       "affiliateUrl": ""
     },
     {
@@ -100,7 +100,7 @@
       "image": "/images/swatches/numakers_ivory_pla+.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior",
-      "websiteUrl": "https://www.numakers.com/pla-plus-filament",
+      "websiteUrl": "https://india.numakers.com/products/pla-filament?variant=43307592351913",
       "affiliateUrl": ""
     },
     {
@@ -113,12 +113,12 @@
       "image": "/images/swatches/numakers_teal_pla+.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior",
-      "websiteUrl": "https://www.numakers.com/pla-plus-filament",
+      "websiteUrl": "https://india.numakers.com/products/pla-filament?variant=43307592253609",
       "affiliateUrl": "https://amzn.to/4jNSVyq"
     },
     {
       "id": "9",
-      "name": "Wol3d Black PLA",
+      "name": "Wol3d Midnight Black PLA",
       "brand": "Wol3d",
       "material": "PLA",
       "finish": "",
@@ -126,8 +126,8 @@
       "image": "/images/swatches/wol3d_black_pla.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior",
-      "websiteUrl": "https://www.wol3d.in/pla-filament",
-      "affiliateUrl": "https://amzn.to/45NJxr9"
+      "websiteUrl": "https://wol3d.com/product/pla-black-3/",
+      "affiliateUrl": "https://amzn.to/3HSnHsw"
     },
     {
       "id": "10",
@@ -139,8 +139,8 @@
       "image": "/images/swatches/wol3d_orange_pla.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior",
-      "websiteUrl": "https://www.wol3d.in/pla-filament",
-      "affiliateUrl": "https://amzn.to/43UPH6d"
+      "websiteUrl": "https://wol3d.com/product/pla-orange-2/",
+      "affiliateUrl": "https://amzn.to/4kzDn2m"
     }
   ]
 }
