@@ -17,4 +17,6 @@ export interface Filament {
   image?: string;
   tags: Tag[];
   printingBehavior?: string;
+  websiteUrl?: string;
+  affiliateUrl?: string;
 }

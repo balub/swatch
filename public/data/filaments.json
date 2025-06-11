@@ -21,7 +21,9 @@
       "hexColor": "#581B08",
       "image": "/images/swatches/esun_jacinth_eslik_pla+.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.esun3d.com/esilk-pla-product/",
+      "affiliateUrl": "https://example.com/affiliate/esun-jacinth-pla"
     },
     {
       "id": "2",
@@ -32,7 +34,9 @@
       "hexColor": "#025602",
       "image": "/images/swatches/fibreel_green_petg.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.fibreel.com/petg-filament",
+      "affiliateUrl": "https://example.com/affiliate/fibreel-green-petg"
     },
     {
       "id": "3",
@@ -43,7 +47,9 @@
       "hexColor": "#753B00",
       "image": "/images/swatches/fibreel_orange_glass_pla.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.fibreel.com/glass-pla-filament",
+      "affiliateUrl": "https://example.com/affiliate/fibreel-orange-glass-pla"
     },
     {
       "id": "4",
@@ -54,7 +60,9 @@
       "hexColor": "#8D3439",
       "image": "/images/swatches/fibreel_silk_red_pla_silk.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.fibreel.com/silk-pla-filament",
+      "affiliateUrl": "https://example.com/affiliate/fibreel-silk-red-pla"
     },
     {
       "id": "5",
@@ -65,7 +73,9 @@
       "hexColor": "#1B1D1C",
       "image": "/images/swatches/numakers_black_pla+.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.numakers.com/pla-plus-filament",
+      "affiliateUrl": "https://example.com/affiliate/numakers-black-pla-plus"
     },
     {
       "id": "6",
@@ -76,7 +86,9 @@
       "hexColor": "#4B4C46",
       "image": "/images/swatches/numakers_grey_petg.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.numakers.com/petg-filament",
+      "affiliateUrl": "https://example.com/affiliate/numakers-grey-petg"
     },
     {
       "id": "7",
@@ -87,7 +99,9 @@
       "hexColor": "#90875C",
       "image": "/images/swatches/numakers_ivory_pla+.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.numakers.com/pla-plus-filament",
+      "affiliateUrl": "https://example.com/affiliate/numakers-ivory-pla-plus"
     },
     {
       "id": "8",
@@ -98,7 +112,9 @@
       "hexColor": "#34736A",
       "image": "/images/swatches/numakers_teal_pla+.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.numakers.com/pla-plus-filament",
+      "affiliateUrl": "https://example.com/affiliate/numakers-teal-pla-plus"
     },
     {
       "id": "9",
@@ -109,7 +125,9 @@
       "hexColor": "#161616",
       "image": "/images/swatches/wol3d_black_pla.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.wol3d.in/pla-filament",
+      "affiliateUrl": "https://example.com/affiliate/wol3d-black-pla"
     },
     {
       "id": "10",
@@ -120,7 +138,9 @@
       "hexColor": "#B25500",
       "image": "/images/swatches/wol3d_orange_pla.jpg",
       "tags": [],
-      "printingBehavior": "Printing Behavior"
+      "printingBehavior": "Printing Behavior",
+      "websiteUrl": "https://www.wol3d.in/pla-filament",
+      "affiliateUrl": "https://example.com/affiliate/wol3d-orange-pla"
     }
   ]
 }
