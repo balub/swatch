@@ -70,15 +70,48 @@ const Index = () => {
             </p>
           </div>
 
-          <FilterBar
-            searchTerm={searchTerm}
-            onSearchChange={setSearchTerm}
-            selectedMaterials={selectedMaterials}
-            onMaterialToggle={handleMaterialToggle}
-            selectedFinishes={selectedFinishes}
-            onFinishToggle={handleFinishToggle}
-            onClearFilters={handleClearFilters}
-          />
+          <div className="grid grid-cols-1 lg:grid-cols-10 gap-6">
+            <div className="lg:col-span-7">
+              <div className="h-full">
+                <FilterBar
+                  searchTerm={searchTerm}
+                  onSearchChange={setSearchTerm}
+                  selectedMaterials={selectedMaterials}
+                  onMaterialToggle={handleMaterialToggle}
+                  selectedFinishes={selectedFinishes}
+                  onFinishToggle={handleFinishToggle}
+                  onClearFilters={handleClearFilters}
+                />
+              </div>
+            </div>
+            <div className="lg:col-span-3">
+              <div className="bg-card border rounded-lg p-4 h-full flex flex-col min-h-[200px]">
+                <h3 className="text-lg font-semibold mb-3">Notes</h3>
+                <ul className="space-y-2 text-sm text-muted-foreground flex-1">
+                  <li>
+                    • Photos are shot under standard lighting with a
+                    NothingPhone 2.
+                  </li>
+                  <li>• All swatches were printed on a Bambu Lab P1S.</li>
+                  <li>
+                    • Hex codes are approximate sampled via Figma, not
+                    color-accurate.
+                  </li>
+                  <li>
+                    • Got filament or make filament and want it listed here?
+                    Email{" "}
+                    <a
+                      href="mailto:balub997@gmail.com"
+                      className="text-primary underline hover:no-underline"
+                    >
+                      balub997@gmail.com
+                    </a>
+                    .
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
           {loading ? (
             <div className="text-center py-16">

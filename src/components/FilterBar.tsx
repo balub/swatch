@@ -30,7 +30,7 @@ const FilterBar = ({
     selectedMaterials.length > 0 || selectedFinishes.length > 0 || searchTerm;
 
   return (
-    <div className="space-y-4 p-4 border rounded-lg bg-card">
+    <div className="space-y-4 p-4 border rounded-lg bg-card h-full flex flex-col min-h-[200px]">
       <div className="flex flex-col sm:flex-row gap-4">
         <div className="flex-1">
           <Input
@@ -49,7 +49,7 @@ const FilterBar = ({
         )}
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-3 flex-1">
         <div>
           <h3 className="text-sm font-medium mb-2">Materials</h3>
           <div className="flex flex-wrap gap-2">
