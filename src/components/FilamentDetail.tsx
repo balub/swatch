@@ -48,11 +48,12 @@ const FilamentDetail = ({ filament }: FilamentDetailProps) => {
               <CardTitle>Swatch Image</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="aspect-video w-full bg-gray-100 rounded-lg overflow-hidden">
+              <div className="w-full bg-gray-100 rounded-lg flex items-center justify-center p-4">
                 <img
                   src={getFilamentImage(filament.image, filament.hexColor)}
                   alt={`${filament.name} swatch`}
-                  className="w-full h-full object-cover"
+                  className="max-w-full h-auto object-contain rounded"
+                  style={{ maxHeight: "400px" }}
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.src = getFilamentImage(undefined, filament.hexColor);
