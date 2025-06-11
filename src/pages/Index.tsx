@@ -63,10 +63,10 @@ const Index = () => {
       <main className="container mx-auto px-4 py-8">
         <div className="space-y-8">
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold">Filament Archive</h1>
+            <h1 className="text-3xl font-bold">Swatch Library</h1>
             <p className="text-muted-foreground">
-              Your personal collection of 3D printing filament swatches and
-              notes.
+              A visual reference of colors, materials, and print
+              characteristics.
             </p>
           </div>
 
