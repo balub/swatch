@@ -18,7 +18,7 @@
       "brand": "Esun",
       "material": "PLA+",
       "finish": "Silk",
-      "hexColor": "#000000",
+      "hexColor": "#581B08",
       "image": "/images/swatches/esun_jacinth_eslik_pla+.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
@@ -29,7 +29,7 @@
       "brand": "Fibreel",
       "material": "PETG",
       "finish": "",
-      "hexColor": "#000000",
+      "hexColor": "#025602",
       "image": "/images/swatches/fibreel_green_petg.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
@@ -40,7 +40,7 @@
       "brand": "Fibreel",
       "material": "PLA",
       "finish": "Glass",
-      "hexColor": "#000000",
+      "hexColor": "#753B00",
       "image": "/images/swatches/fibreel_orange_glass_pla.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
@@ -51,7 +51,7 @@
       "brand": "Fibreel",
       "material": "PLA",
       "finish": "Silk",
-      "hexColor": "#000000",
+      "hexColor": "#8D3439",
       "image": "/images/swatches/fibreel_silk_red_pla_silk.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
@@ -62,7 +62,7 @@
       "brand": "Numakers",
       "material": "PLA+",
       "finish": "",
-      "hexColor": "#000000",
+      "hexColor": "#1B1D1C",
       "image": "/images/swatches/numakers_black_pla+.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
@@ -73,7 +73,7 @@
       "brand": "Numakers",
       "material": "PETG",
       "finish": "",
-      "hexColor": "#000000",
+      "hexColor": "#4B4C46",
       "image": "/images/swatches/numakers_grey_petg.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
@@ -84,7 +84,7 @@
       "brand": "Numakers",
       "material": "PLA+",
       "finish": "",
-      "hexColor": "#000000",
+      "hexColor": "#90875C",
       "image": "/images/swatches/numakers_ivory_pla+.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
@@ -95,7 +95,7 @@
       "brand": "Numakers",
       "material": "PLA+",
       "finish": "",
-      "hexColor": "#000000",
+      "hexColor": "#34736A",
       "image": "/images/swatches/numakers_teal_pla+.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
@@ -106,7 +106,7 @@
       "brand": "Wol3d",
       "material": "PLA",
       "finish": "",
-      "hexColor": "#000000",
+      "hexColor": "#161616",
       "image": "/images/swatches/wol3d_black_pla.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
@@ -117,7 +117,7 @@
       "brand": "Wol3d",
       "material": "PLA",
       "finish": "",
-      "hexColor": "#000000",
+      "hexColor": "#B25500",
       "image": "/images/swatches/wol3d_orange_pla.jpg",
       "tags": [],
       "printingBehavior": "Printing Behavior"
