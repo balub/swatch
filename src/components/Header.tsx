@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
           <Palette className="h-6 w-6" />
-          <span className="text-xl font-bold">Swatch</span>
+          <span className="text-xl font-bold">swatch</span>
         </Link>
 
         <div className="flex items-center gap-2">
