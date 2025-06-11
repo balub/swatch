@@ -1,54 +1,76 @@
-# React + TypeScript + Vite
+# swatch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**swatch** is a visual archive of 3D printed filament swatches from brands available in India.
 
-Currently, two official plugins are available:
+It was created to solve a common problem faced by makers and 3D printing enthusiasts: when buying filament online, it's often hard to tell what a color will actually look like once printed. Most product photos are digital renders or inconsistent lighting shots that don’t represent real-world output.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+swatch fixes that by photographing physical swatches under consistent lighting and layout. This archive helps buyers see how a filament looks once printed—before they buy it.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Purpose
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- Provide a visual reference of filament colors as they appear after printing
+- Help buyers choose colors more confidently by seeing accurate, real-world results
+- Focus on filaments from brands available in India
+- Make a simple, fast, low-maintenance static site that can be updated easily
+
+---
+
+## Features
+
+- Static React-based frontend
+- No database, backend, or CMS — just JSON and images
+- Filament swatches stored in a structured format
+- Fast-loading and lightweight by design
+- Built with developer experience and minimal upkeep in mind
+
+---
+
+## Stack
+
+- [React](https://react.dev)
+- [Vite](https://vitejs.dev)
+- [ShadCN UI](https://ui.shadcn.com)
+- [Tailwind CSS](https://tailwindcss.com)
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or later)
+- [pnpm](https://pnpm.io/) package manager
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/swatch.git
+cd swatch
+pnpm install
+pnpm dev
 ```
+Then open http://localhost:5173 in your browser.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Future Plans
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Build a better photo capture setup with controlled and consistent lighting
+- Add metadata to each swatch (e.g. printer settings, lighting, swatch model)
+- Improve mobile responsiveness and visual layout
+- Support filtering by material type, brand, or finish (e.g. silk, matte, PETG)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Contributing
+
+Community contributions are welcome. Here are some ways to help:
+	- Improve the visual design and layout
+	- Propose better UX patterns for browsing or filtering swatches
+	- Contribute swatch images and details (especially Indian brands)
+	- Help define a metadata standard for filament entries
+	- Design a simple brand/logo for the site
+
+Open a pull request or issue if you’d like to collaborate.
+
+## License
+
+MIT License
