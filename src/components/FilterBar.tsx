@@ -1,10 +1,8 @@
-
-import React from 'react';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { X } from 'lucide-react';
-import { Material, Finish } from '../types';
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { X } from "lucide-react";
+import type { Material, Finish } from "@/types";
 
 interface FilterBarProps {
   searchTerm: string;
@@ -16,11 +14,20 @@ interface FilterBarProps {
   onClearFilters: () => void;
 }
 
-const materials: Material[] = ['PLA', 'PLA+', 'PETG', 'ABS', 'TPU', 'ASA'];
-const finishes: Finish[] = ['Matte', 'Silk', 'Glossy', 'Metallic'];
+const materials: Material[] = ["PLA", "PLA+", "PETG", "ABS", "TPU", "ASA"];
+const finishes: Finish[] = ["Matte", "Silk", "Glossy", "Metallic"];
 
-const FilterBar = ({ searchTerm, onSearchChange, selectedMaterials, onMaterialToggle, selectedFinishes, onFinishToggle, onClearFilters }: FilterBarProps) => {
-  const hasActiveFilters = selectedMaterials.length > 0 || selectedFinishes.length > 0 || searchTerm;
+const FilterBar = ({
+  searchTerm,
+  onSearchChange,
+  selectedMaterials,
+  onMaterialToggle,
+  selectedFinishes,
+  onFinishToggle,
+  onClearFilters,
+}: FilterBarProps) => {
+  const hasActiveFilters =
+    selectedMaterials.length > 0 || selectedFinishes.length > 0 || searchTerm;
 
   return (
     <div className="space-y-4 p-4 border rounded-lg bg-card">
@@ -46,10 +53,12 @@ const FilterBar = ({ searchTerm, onSearchChange, selectedMaterials, onMaterialTo
         <div>
           <h3 className="text-sm font-medium mb-2">Materials</h3>
           <div className="flex flex-wrap gap-2">
-            {materials.map(material => (
+            {materials.map((material) => (
               <Badge
                 key={material}
-                variant={selectedMaterials.includes(material) ? "default" : "outline"}
+                variant={
+                  selectedMaterials.includes(material) ? "default" : "outline"
+                }
                 className="cursor-pointer"
                 onClick={() => onMaterialToggle(material)}
               >
@@ -62,10 +71,12 @@ const FilterBar = ({ searchTerm, onSearchChange, selectedMaterials, onMaterialTo
         <div>
           <h3 className="text-sm font-medium mb-2">Finishes</h3>
           <div className="flex flex-wrap gap-2">
-            {finishes.map(finish => (
+            {finishes.map((finish) => (
               <Badge
                 key={finish}
-                variant={selectedFinishes.includes(finish) ? "default" : "outline"}
+                variant={
+                  selectedFinishes.includes(finish) ? "default" : "outline"
+                }
                 className="cursor-pointer"
                 onClick={() => onFinishToggle(finish)}
               >

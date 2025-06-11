@@ -1,13 +1,12 @@
-
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Separator } from '@/components/ui/separator';
-import { ArrowLeft } from 'lucide-react';
-import { Filament } from '../types';
-import Tag from './Tag';
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
+import { ArrowLeft } from "lucide-react";
+import type { Filament } from "@/types";
+import { getFilamentImage } from "@/utils/imageUtils";
+import Tag from "./Tag";
 
 interface FilamentDetailProps {
   filament: Filament;
@@ -30,16 +29,37 @@ const FilamentDetail = ({ filament }: FilamentDetailProps) => {
           <Card>
             <CardHeader>
               <div className="flex items-center gap-4">
-                <div 
+                <div
                   className="w-12 h-12 rounded border"
                   style={{ backgroundColor: filament.hexColor }}
                 />
                 <div>
                   <CardTitle className="text-2xl">{filament.name}</CardTitle>
-                  <p className="text-lg text-muted-foreground">{filament.brand}</p>
+                  <p className="text-lg text-muted-foreground">
+                    {filament.brand}
+                  </p>
                 </div>
               </div>
             </CardHeader>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle>Swatch Image</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="aspect-video w-full bg-gray-100 rounded-lg overflow-hidden">
+                <img
+                  src={getFilamentImage(filament.image, filament.hexColor)}
+                  alt={`${filament.name} swatch`}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = getFilamentImage(undefined, filament.hexColor);
+                  }}
+                />
+              </div>
+            </CardContent>
           </Card>
 
           {filament.printingBehavior && (
@@ -48,7 +68,9 @@ const FilamentDetail = ({ filament }: FilamentDetailProps) => {
                 <CardTitle>Printing Behavior</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm leading-relaxed whitespace-pre-wrap">{filament.printingBehavior}</p>
+                <p className="text-sm leading-relaxed whitespace-pre-wrap">
+                  {filament.printingBehavior}
+                </p>
               </CardContent>
             </Card>
           )}
@@ -71,7 +93,9 @@ const FilamentDetail = ({ filament }: FilamentDetailProps) => {
 
               <div>
                 <span className="text-sm font-medium">Finish</span>
-                <p className="text-sm text-muted-foreground mt-1">{filament.finish}</p>
+                <p className="text-sm text-muted-foreground mt-1">
+                  {filament.finish}
+                </p>
               </div>
 
               <Separator />
@@ -79,7 +103,7 @@ const FilamentDetail = ({ filament }: FilamentDetailProps) => {
               <div>
                 <span className="text-sm font-medium">Color</span>
                 <div className="flex items-center gap-2 mt-1">
-                  <div 
+                  <div
                     className="w-4 h-4 rounded border"
                     style={{ backgroundColor: filament.hexColor }}
                   />
@@ -93,7 +117,7 @@ const FilamentDetail = ({ filament }: FilamentDetailProps) => {
                   <div>
                     <span className="text-sm font-medium">Tags</span>
                     <div className="flex flex-wrap gap-1 mt-2">
-                      {filament.tags.map(tag => (
+                      {filament.tags.map((tag) => (
                         <Tag key={tag.id} tag={tag} />
                       ))}
                     </div>

@@ -1,6 +1,5 @@
-import React from 'react';
-import { Badge } from '@/components/ui/badge';
-import { Tag as TagType } from '../types';
+import { Badge } from "@/components/ui/badge";
+import type { Tag as TagType } from "@/types";
 
 interface TagProps {
   tag: TagType;
@@ -18,7 +17,9 @@ const Tag = ({ tag, onClick, selected = false }: TagProps) => {
   return (
     <Badge
       variant={selected ? "default" : "secondary"}
-      className={`text-xs ${onClick ? 'cursor-pointer hover:bg-primary/20' : ''}`}
+      className={`text-xs ${
+        onClick ? "cursor-pointer hover:bg-primary/20" : ""
+      }`}
       onClick={handleClick}
     >
       {tag.name}

@@ -1,9 +1,9 @@
-import React, { useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import Header from "../components/Header";
 import FilterBar from "../components/FilterBar";
 import FilamentGrid from "../components/FilamentGrid";
 import { useFilamentData } from "../hooks/useFilamentData";
-import type { Material, Finish } from "../types";
+import type { Material, Finish } from "@/types";
 
 const Index = () => {
   const { filaments, loading, error } = useFilamentData();
